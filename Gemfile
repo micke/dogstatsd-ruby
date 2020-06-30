@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake', '>= 12.3.3'
-gem 'rack', '~> 1.6'
+gem 'rack', '~> 2.1', '>= 2.1.4'
 gem 'minitest'
 gem 'minitest-matchers'
 gem 'yard', '~> 0.9.20'
