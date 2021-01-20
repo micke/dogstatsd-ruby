@@ -77,7 +77,7 @@ module Datadog
       namespace: nil,
       tags: nil,
       max_buffer_bytes: DEFAULT_BUFFER_SIZE,
-      socket_path: nil,
+      socket_path: ENV['DD_DOGSTATSD_SOCKET'],
       logger: nil,
       sample_rate: nil,
       disable_telemetry: false,
